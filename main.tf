@@ -1,5 +1,5 @@
 terraform{
-backened "azurerm"{}
+backend "azurerm"{}
 
     required_providers{
         azurerm ={
