@@ -1,4 +1,5 @@
 terraform{
+backened "azurerm"{}
     required_providers{
         azurerm ={
             source ="hashicorp/azurerm"
