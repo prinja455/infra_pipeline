@@ -27,7 +27,7 @@ stages:
         provider: "azurerm"
         command: "init"
         backendServiceArm: "infra1"
-        backendAzureRmResourceGroupName: "<resource-group-name>"
+        backendAzureRmResourceGroupName: "infra1"
         backendAzureRmStorageAccountName: "infra12"
         backendAzureRmContainerName: "infracon"
         backendAzureRmKey: "terraform.tfstate"
